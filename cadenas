@@ -1,0 +1,7 @@
+string=input()
+if string[0]==string[0].upper():
+    print(string)
+else:
+    res=string[0].upper()
+    resu=string[1:]
+    print(res+resu)
